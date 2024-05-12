@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(why-us.png);
+}
+
+.main-container {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 500px;
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 5px;
+}
+
+.dashboard-section,
+.login-section {
+    display: none;
+}
+
+.register-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+.register-section h2 {
+    text-align: center;
+    text-transform: capitalize;
+    color: #358D87; /* Change the color */
+}
+
+form label {
+    font-size: 1rem;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.navbar {
+    margin-right: 100px;
+}
+
+.navbar button {
+    
+    color: rgb(232, 232, 232);
+    border: none;
+    background-color: transparent;
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 900;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar button:hover {
+    color: #358D87;
+    border-color: black;
+}
+
+.register-btn,
+.login-btn {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 160px;
+    padding: 10px 50px;
+    display: inline-block;
+    background-color: #1D9FE6;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.575);
+}
+
+::placeholder {
+    color: #b1b1b1;
+}
+
+.login-section input,
+.register-section input,
+.dashboard-section input {
+    width: 100%;
+    max-width: 400px;
+    margin-left: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.login-section h2,
+.register-section h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#transfer-form {
+    margin-top: 10px;
+}
+
+#transfer-form input {
+    margin-top: 20px;
+}
+
+#transfer-form button {
+    margin: 0 150px;
+    padding: 10px 30px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.dashboard-section h4 {
+    text-align: center;
+    color: #358D87;
+}
+.login-section h2 {
+    text-align: center;
+    text-transform: capitalize;
+    color: #358D87;
+}
+
+.dashboard-section input {
+    margin-top: 20px;
+    
+}
+
+#withdraw-btn,
+#deposit-btn,
+#transfer-btn {
+    padding: 10px 30px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.575);
+}

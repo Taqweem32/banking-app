@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="navbar">
+            <button id="login-tab">Login</button>
+            <button id="register-tab">Register</button>
+        </div>
+        <div class="login-section">
+            <h2>Login to Your Account</h2>
+            <form action="" id="login-form">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Enter your email">
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="Enter your password">
+                <button type="submit" class="login-btn">Login</button>
+            </form>
+        </div>
+        <div class="register-section">
+            <h2>Register Your Account</h2>
+            <form action="" id="register-form">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Enter your email">
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="Create your password">
+                <button type="submit" class="register-btn">Register</button>
+            </form>
+        </div>
+        <div class="dashboard-section">
+            <input type="number" min="1" id="amount">
+            <button id="withdraw-btn">Withdraw</button>
+            <button id="deposit-btn">Deposit</button>
+            <button id="transfer-btn">Transfer</button>
+            <form id="transfer-form" style="display: none;">
+                <input type="email" id="transfer-to" placeholder="Recipient's Email" required>
+                <input type="number" id="transfer-amount" placeholder="Amount" required>
+                <button type="submit">Transfer</button>
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
